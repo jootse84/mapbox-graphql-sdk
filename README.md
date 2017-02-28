@@ -1,5 +1,7 @@
 # A GraphQL wrapper for the Mapbox SDK JS
 
+**DEMO**: https://damp-badlands-23673.herokuapp.com/
+
 A client-side GraphQL wrapper for the [Mapbox SDK JS api](https://github.com/mapbox/mapbox-sdk-js/blob/master/API.md)
 
 ## geocodeForward
