@@ -1,0 +1,18 @@
+{
+  "name": "graphql-mapbox-sdk",
+  "version": "0.0.0",
+  "description": "A graphql server wrapper for the mapbox sdk API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jootse.84 <jootse.84@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "express-graphql": "^0.6.3",
+    "graphql": "^0.9.1",
+    "graphql-geojson": "^1.0.0",
+    "mapbox": "^1.0.0-beta6"
+  }
+}
