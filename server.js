@@ -4,12 +4,15 @@ var { GraphQLSchema } = require('graphql')
 var MapboxAPIType = require('./mapbox')
 
 var app = express()
-app.use('/mapbox', graphqlHTTP({
+
+app.set('port', (process.env.PORT || 5000))
+app.use('/', graphqlHTTP({
   schema: new GraphQLSchema({
     query: MapboxAPIType
   }),
   graphiql: true,
 }))
 
-app.listen(4000)
-console.log('Running a GraphQL API server at localhost:4000/mapbox')
+app.listen(app.get('port'), function() {
+  console.log('Server is running on port', app.get('port'));
+})

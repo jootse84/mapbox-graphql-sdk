@@ -4,7 +4,7 @@
   "description": "A graphql server wrapper for the mapbox sdk API",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
   "author": "jootse.84 <jootse.84@gmail.com>",
   "license": "ISC",
